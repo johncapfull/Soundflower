@@ -1,3 +1,5 @@
+# NB: Here is my clone of soundflower with some personal tweaks.
+**original readme below**
 
 # JUST LOOKING FOR THE (SIGNED) SOUNDFLOWER INSTALLER?
 https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
