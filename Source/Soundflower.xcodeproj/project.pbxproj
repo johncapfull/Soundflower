@@ -94,10 +94,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Cycling '74";
+				ORGANIZATIONNAME = btnhub;
 				TargetAttributes = {
 					222ADFEB1862531600C9BE56 = {
-						DevelopmentTeam = 3G47DU9NXM;
+						DevelopmentTeam = P3T5CA7ANK;
 					};
 				};
 			};
@@ -106,6 +106,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 222ADFE11862531500C9BE56;
@@ -225,10 +226,11 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.0b1;
 				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = P3T5CA7ANK;
 				DSTROOT = "$(SRCROOT)/../Build/InstallerRoot";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -239,9 +241,10 @@
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				INSTALL_PATH = /Library/Extensions;
-				MODULE_NAME = com.Cycling74.driver.Soundflower;
+				MODULE_NAME = com.btnhub.driver.Soundflower;
 				MODULE_VERSION = 2.0b1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.btnhub.driver.Soundflower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = kext;
@@ -254,10 +257,11 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.0b1;
 				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = P3T5CA7ANK;
 				DSTROOT = "$(SRCROOT)/../Build/InstallerRoot";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -265,9 +269,10 @@
 				INSTALL_GROUP = wheel;
 				INSTALL_OWNER = root;
 				INSTALL_PATH = /Library/Extensions;
-				MODULE_NAME = com.Cycling74.driver.Soundflower;
+				MODULE_NAME = com.btnhub.driver.Soundflower;
 				MODULE_VERSION = 2.0b1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.btnhub.driver.Soundflower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = kext;

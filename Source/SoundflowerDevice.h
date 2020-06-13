@@ -38,9 +38,9 @@
 #define SAMPLE_RATES_KEY				"SampleRates"
 #define SEPARATE_STREAM_BUFFERS_KEY		"SeparateStreamBuffers"
 #define SEPARATE_INPUT_BUFFERS_KEY		"SeparateInputBuffers"
-#define SoundflowerDevice				com_cycling74_driver_SoundflowerDevice
+#define SoundflowerDevice				com_btnhub_driver_SoundflowerDevice
 
-#define NUM_CHANS 64
+#define NUM_CHANS 8
 
 class SoundflowerEngine;
 

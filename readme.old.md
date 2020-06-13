@@ -1,4 +1,4 @@
-# NB: Here is my clone of soundflower with some personal tweaks.
+# NB: Here is my fork of soundflower with some personal tweaks.
 **original readme below**
 
 # JUST LOOKING FOR THE (SIGNED) SOUNDFLOWER INSTALLER?
