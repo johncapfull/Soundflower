@@ -58,14 +58,14 @@ bool SoundflowerDevice::initHardware(IOService *provider)
 {
     bool result = false;
     
-	//IOLog("SoundflowerDevice[%p]::initHardware(%p)\n", this, provider);
+	IOLog("SoundflowerDevice[%p]::initHardware(%p)\n", this, provider);
     
     if (!super::initHardware(provider))
         goto Done;
     
     setDeviceName("Soundflower");
     setDeviceShortName("Soundflower");
-    setManufacturerName("ma++ ingalls for Cycling '74");
+    setManufacturerName("BtnHub");
     
     if (!createAudioEngines())
         goto Done;

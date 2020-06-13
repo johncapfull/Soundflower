@@ -29,7 +29,7 @@ sudo kextload -v /tmp/Soundflower.kext
 sudo rm -R /tmp/Soundflower.kext
 ```
 
-Copy and load new one
+**Copy and load new one**
 ```
 sudo cp -R Build/InstallerRoot/Library/Extensions/Soundflower.kext /tmp
 sudo kextload -v /tmp/Soundflower.kext
@@ -45,10 +45,24 @@ sudo mount -uw
 sudo killall Finder
 ```
 
-**Copy to /System/Library/Extensions**
+**Copy to /System/Library/Extensions (NOT UNDER MC!)**
 
 ```sudo cp -r /tmp/Soundflower.kext /Library/Extensions```
 
 **Reboot?**
-
 **Profit!**
+
+## How to debug
+
+**Show kernel logs (useful to see CoreAudio output):**
+```
+log stream --process 0
+```
+
+**IOLog. For some reason messages are corrupted :(**
+```
+log show --predicate 'senderImagePath CONTAINS "Soundflower"'
+```
+
+## TODO
+http://www.alauda.ro/2013/12/iouserclient-and-ioexternalmethod/

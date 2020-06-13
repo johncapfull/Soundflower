@@ -48,8 +48,8 @@ bool SoundflowerEngine::init(OSDictionary *properties)
 {
     bool result = false;
     OSNumber *number = NULL;
-    
-	//IOLog("SoundflowerEngine[%p]::init()\n", this);
+   
+	IOLog("SoundflowerEngine[%p]::init()\n", this);
 
     if (!super::init(properties)) {
         goto Done;
@@ -191,6 +191,8 @@ bool SoundflowerEngine::init(OSDictionary *properties)
 	else {
         blockSize = BLOCK_SIZE;
     }
+    
+    IOLog("SoundflowerEngine[%p] numBlocks = %d blockSize = %d\n", this, numBlocks, blockSize);
     
     inputStream = outputStream = NULL;
     duringHardwareInit = FALSE;

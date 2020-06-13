@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0b2</string>
+	<string>2.1</string>
 	<key>CFBundleSignature</key>
 	<string>sFlo</string>
 	<key>CFBundleVersion</key>
@@ -28,7 +28,7 @@
 			<array>
 				<dict>
 					<key>BlockSize</key>
-					<integer>8192</integer>
+					<integer>1024</integer>
 					<key>Description</key>
 					<string>Soundflower (2ch)</string>
 					<key>Formats</key>
@@ -70,7 +70,7 @@
 				</dict>
 				<dict>
 					<key>BlockSize</key>
-					<integer>8192</integer>
+					<integer>1024</integer>
 					<key>Description</key>
 					<string>Soundflower (8ch)</string>
 					<key>Formats</key>
