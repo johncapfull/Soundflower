@@ -11,10 +11,14 @@
 
 Disable System Integrity Protection.
 Reset to recovery (hold Command+R while loading). Menu -> Utilities -> Terminal:
-```csrutil disable```
+```
+csrutil disable
+```
 
 Then reboot, go to console. Allow loading kext from any location:
-```systemextensionsctl developer on```
+```
+systemextensionsctl developer on
+```
 
 ### Testing
 
